@@ -1,26 +1,59 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+import { Container } from 'react-bootstrap'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
-function App() {
+// Componentes
+// import Menu from './Components/Menu'
+
+
+// Pages
+import Login from './pages/login/login'
+import Error404 from './pages/error404'
+// import Movie from './pages/movie'
+// import NewMovies from './pages/newMovies'
+// import Popular from './pages/popular'
+// import Search from './pages/search'
+
+
+export default function App() {
+
+  const [user, setUser] = useState([])
+
+  const checkUser = user => {
+    console.log(user)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router> 
+        <Switch>
+          <Route path="/" exact={true}>
+            <Container style={{ zIndex: 1 }}>
+            <Login 
+              checkUser={checkUser} 
+            />
+            </Container>
+          </Route>
+          {/* <Route path="/new-movies" exact={true}>
+            <NewMovies />
+          </Route>
+          <Route path="/popular" exact={true}>
+            <Popular />
+          </Route>
+          <Route path="/search" exact={true}>
+            <Search />
+          </Route>
+          <Route path="/movie/:id" exact={true}>
+            <Movie />
+          </Route> */}
+          <Route path="*" >
+            <Error404 />
+          </Route>
+        </Switch>
+      {/* </Content> */}
+      </Router>
     </div>
   );
 }
 
-export default App;
+
