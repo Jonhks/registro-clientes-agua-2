@@ -1,5 +1,10 @@
 import React from 'react';
+import '../../src/index.css'
+
 
 export default () => {
-  return <h1>Error</h1>
+  return (
+    <div className="imagen-error-404">
+    </div>
+  )
 }
