@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Jonhks/registro-clientes-agua-2/static/css/main.1215c054.chunk.css",
+    "main.js": "/Jonhks/registro-clientes-agua-2/static/js/main.a9d50ffb.chunk.js",
+    "main.js.map": "/Jonhks/registro-clientes-agua-2/static/js/main.a9d50ffb.chunk.js.map",
+    "runtime-main.js": "/Jonhks/registro-clientes-agua-2/static/js/runtime-main.2265b005.js",
+    "runtime-main.js.map": "/Jonhks/registro-clientes-agua-2/static/js/runtime-main.2265b005.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/Jonhks/registro-clientes-agua-2/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.14c4c0ac.chunk.js": "/Jonhks/registro-clientes-agua-2/static/js/2.14c4c0ac.chunk.js",
+    "static/js/2.14c4c0ac.chunk.js.map": "/Jonhks/registro-clientes-agua-2/static/js/2.14c4c0ac.chunk.js.map",
+    "index.html": "/Jonhks/registro-clientes-agua-2/index.html",
+    "precache-manifest.8c5726d2460a5e7ae2d449f0b24b4018.js": "/Jonhks/registro-clientes-agua-2/precache-manifest.8c5726d2460a5e7ae2d449f0b24b4018.js",
+    "service-worker.js": "/Jonhks/registro-clientes-agua-2/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/Jonhks/registro-clientes-agua-2/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.1215c054.chunk.css.map": "/Jonhks/registro-clientes-agua-2/static/css/main.1215c054.chunk.css.map",
+    "static/js/2.14c4c0ac.chunk.js.LICENSE.txt": "/Jonhks/registro-clientes-agua-2/static/js/2.14c4c0ac.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Jonhks/registro-clientes-agua-2/static/media/404.415d6bf8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2265b005.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.14c4c0ac.chunk.js",
+    "static/css/main.1215c054.chunk.css",
+    "static/js/main.a9d50ffb.chunk.js"
+  ]
+}
