@@ -13,7 +13,7 @@ import Home from './pages/home'
 import Login from './pages/login/login'
 import Error404 from './pages/error404'
 import ClienteNuevo from './pages/cliente-nuevo'
-// import Popular from './pages/popular'
+import Mantenimiento from './pages/mantenimiento'
 // import Search from './pages/search'
 
 
@@ -59,6 +59,9 @@ export default function App() {
           </Route>
           <Route path="/cliente-nuevo" exact={true}>
             <ClienteNuevo />
+          </Route>
+          <Route path="/mantenimiento" exact={true}>
+            <Mantenimiento />
           </Route>
           {/* <Route path="/popular" exact={true}>
             <Popular />
